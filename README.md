@@ -13,7 +13,7 @@ _Requires helm v2.x_
 Initialize helm and install prometheus-operator chart:
 ```bash
 helm init
-helm install stable/prometheus-operator --name prometheus-operator --namespace monitoring (with 2.16)
+helm install stable/prometheus-operator --name prometheus-operator --namespace monitoring
 ```
 
 
