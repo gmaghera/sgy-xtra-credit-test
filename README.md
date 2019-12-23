@@ -5,6 +5,9 @@ From the root of the project run:
 ```bash
 kubectl apply -k ./`
 ```
+This deployment will create a load balancer type Kubernetes service. If you're using Docker for Desktop, Wordpress will become available at http://localhost.
+
+_If you are using Docker for Destkop, and have previously deployed other load balancer services to its cluster, the wordpress service might conflict with it. This is a simple POC, works best if deployed to a pristine Docker for Desktop k8s cluster._
 
 
 ## Deploy Prometheus Operator
